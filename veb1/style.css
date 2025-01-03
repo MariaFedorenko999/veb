@@ -1,0 +1,184 @@
+body {
+    font-family: 'Play', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: #ffb6c1;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo h1 {
+    margin-left: 10px;
+    font-size: 48px;
+    font-family: 'Fredoka One', cursive;
+    background: linear-gradient(45deg, #ff69b4, #ff1493);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.contact-info {
+    text-align: right;
+}
+
+.text_line {
+    font-size: 18px;
+}
+
+.number {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.curved-text {
+    font-size: 22px;
+    text-align: center;
+    width: 300px;
+    margin: 20px auto;
+}
+
+nav {
+    background-color: #ffb6c1;
+    padding: 10px 0;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #ff69b4;
+}
+
+main {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.assortment {
+    text-align: center;
+}
+
+.assortment h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.cake-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cake-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+
+.cake-item:hover {
+    transform: scale(1.05);
+}
+
+.cake-link {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+}
+
+.cake-link img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.cake-link h3 {
+    margin-top: 10px;
+    font-size: 24px;
+}
+
+.main_text {
+    margin-top: 40px;
+}
+
+.cake-info {
+    display: none;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.cake-info h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.cake-info p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+footer {
+    background-color: #ffb6c1;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer .row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer .row a {
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    transition: color 0.3s;
+}
+
+.footer .row a:hover {
+    color: #ff69b4;
+}
